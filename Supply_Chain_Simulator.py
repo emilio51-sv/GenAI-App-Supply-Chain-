@@ -1,3 +1,7 @@
+import pysqlite3
+import sys
+sys.modules['sqlite3'] = pysqlite3
+
 import streamlit as st
 import os
 from crewai import Crew, Agent, Task, Process
@@ -6,9 +10,7 @@ import pandas as pd
 from datetime import datetime
 from textwrap import dedent
 
-import pysqlite3
-import sys
-sys.modules['sqlite3'] = pysqlite3
+
 
 # -----------------------------------------------------------------------------------
 # 1. PAGE CONFIGURATION
