@@ -1,0 +1,10 @@
+streamlit
+crewai
+langchain
+langchain_community
+openai
+requests
+matplotlib
+pandas
+plotly
+pysqlite3_binary
